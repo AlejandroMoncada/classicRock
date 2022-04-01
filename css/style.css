@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Robot&display=swap');
+
+body{
+  margin: 0;
+}
+footer{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+footer p{
+  margin: 0;
+}
+.principal{
+  display: flex;
+  position: relative;
+  font-family: 'Bowlby One SC', cursive;
+}
+.imagen{
+  width: 100%;
+  height: 70vh;  
+}
+.imagen img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center -160px;
+}
+.titulo{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  color: azure;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 85px;
+  text-shadow: 0px 0px 2px #000;
+}
+.titulo p{
+  display: block;
+  text-align: justify;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0;
+  font-size: 85px;
+}
+.parrafo{
+  font-family: 'Roboto', sans-serif;
+  background-color: #012b50;
+  padding: 17px;
+}
+.parrafo p{
+  margin: 0;
+  text-align: justify;
+  color: white;
+}
+.rockeros{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+.tarjetas{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 16%;
+  height: 51rem;
+  box-shadow: 0px 5px 10px 0px  rgba(0, 0, 0, 0.404);
+  text-align: justify;
+  margin: 15px;
+  border-radius: 12px;
+}
+.tarjetas img{
+  width: 100%;
+  height: 19rem;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.titulos_tarjetas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.titulos_tarjetas p{
+  margin: 0;
+  font-size: 13px;
+  
+}
+.tarjetas p{
+  margin: 10px;
+  margin-top: 0;
+}
+.footer_tarjetas{
+  bottom: 0;
+  background-color: #012b50;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
